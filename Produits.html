@@ -2,15 +2,15 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="style_projet2.css"/>
+		<link rel="stylesheet" type="text/css" href="style_projet.css"/>
 		<title>Produits</title>
 	</head>
 	<body>
 		<img id="fond" src="images/fond_pokemon.png" alt="fond_pokemon"/>
 		<nav id="haut_page" class="bandeau">
-			<a href="Accueil.html"><img id="logo" src="images/poke_logo.png" alt="poke_logo"/></a>
+			<a href="index.html"><img id="logo" src="images/poke_logo.png" alt="poke_logo"/></a>
 			<ul>
-				<li><a href="Accueil.html">Accueil</a></li>
+				<li><a href="index.html">Accueil</a></li>
 				<li><a href="Produits.html">Produits</a></li>
 				<li><a href="Contact.html">Contact</a></li>
 				<li id="rechercher"><label><input placeholder="Rechercher"></label><a href="#"><img id="loupe" src="images/ico-loupe.png" alt="ico_loupe"/></a>
@@ -18,6 +18,121 @@
 		</nav>
 		
 		<div class="contenu_page">
+			<section id="Balls">
+				<h1 class="cat_prod">Les Balls</h1>
+				<table class="gauche">
+					<tr class="titre_tab">	
+						<td>Ball</td><td class="nom">Nom</td><td>Description</td><td>Prix</td><td>Quantité</td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/pokeball.png" alt="pokeball"/></td>
+						<td>Poké Ball</td>
+						<td class="description">Objet qui permet de capturer les Pokémon sauvages</td>
+						<td class="prix">200$</td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/superball.png" alt="superball"/></td>
+						<td>Super Ball</td>
+						<td class="description">Une Ball dont le taux de réussite est supérieur à celui de la Poké Ball</td>
+						<td class="prix"><span class="raye">600$</span><p>500$</p></td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/hyperball.png" alt="hyperball"/></td>
+						<td>Hyper Ball</td>
+						<td class="description">Une Ball dont le taux de réussite est supérieur à celui de la Super Ball</td>
+						<td class="prix">1200$</td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/netball.png" alt="netball"/></td>
+						<td>Filet Ball</td>
+						<td class="description">Une Ball qui fonctionne particulièrement bien sur les Pokémon Eau & Insecte</td>
+						<td class="prix"><span class="raye">800$</span><p>650$</p></td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/safariball.png" alt="safariball"/></td>
+						<td>Safari Ball</td>
+						<td class="description">Une Ball nécessaire pour entrer au parc Safari. Elle n'est utilisable que dans le parc</td>
+						<td class="prix">200$</td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/healball.png" alt="healball"/></td>
+						<td>Soin Ball</td>
+						<td class="description">Une Ball qui restaure tous les PV du Pokémon attrapé et soigne ses changements de statut</td>
+						<td class="prix">1200$</td>
+						<td><input type="number"></td>
+					</tr>
+					<tr id="masterball">
+						<td><img src="images/balls/masterball.png" alt="masterball"/></td>
+						<td>Master Ball</td>
+						<td class="description">Une Ball qui permet de capturer à coup sûr un Pokémon sauvage</td>
+						<td class="prix">Non-disp (cf concours)</td>
+						<td><input type="number"></td>
+					</tr>
+				</table>
+				<table class="droite">
+					<tr class="titre_tab">	
+						<td>Ball</td>
+						<td class="nom">Nom</td>
+						<td>Description</td>
+						<td>Prix</td>
+						<td>Quantité</td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/luxeball.png" alt="luxeball"/></td>
+						<td>Luxe Ball</td>
+						<td class="description">Une Ball qui permet de gagner rapidement l'amitié d'un Pokémon sauvage attrapé</td>
+						<td class="prix">1000$</td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/masseball.png" alt="masseall"/></td>
+						<td>Masse Ball</td>
+						<td class="description">Pour pécho les pokemons lourds , genre ta mère !</td>
+						<td class="prix">1000$</td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/chronoball.png" alt="chronoball"/></td>
+						<td>Chrono Ball</td>
+						<td class="description">Une Ball qui fonctionne de mieux en mieux à mesure que le combat dure</td>
+						<td class="prix">1000$</td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/memoireball.png" alt="memoireball"/></td>
+						<td>Mémoire Ball</td>
+						<td class="description">Une Ball qui contient un Pokémon offert dans les événements Nintendo</td>
+						<td class="prix">2000$</td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/sombreball.png" alt="sombreball"/></td>
+						<td>Sombre Ball</td>
+						<td class="description">Une Ball qui permet d'attraper un Pokémon sauvage plus facilement dans une grotte ou entre 20h et 4h</td>
+						<td class="prix"><span class="raye">1000$</span><p>850$</p></td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/luneball.png" alt="luneball"/></td>
+						<td>Lune Ball</td>
+						<td class="description">Une Ball qui fonctionne mieux sur les Pokémon pouvant évoluer avec une Pierre Lune</td>
+						<td class="prix">2000$</td>
+						<td><input type="number"></td>
+					</tr>
+					<tr>
+						<td><img src="images/balls/honorball.png" alt="honorball"/></td>
+						<td>Honor Ball</td>
+						<td class="description">Une Poké Ball assez rare qui fut créée pour un événement particulier</td>
+						<td class="prix">Disponible sous conditions</td>
+						<td><input type="number"></td>
+					</tr>
+				</table>
+			</section>
 		</div>
 	</body>
 
