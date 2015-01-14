@@ -84,3 +84,33 @@ table tr td:last-child{
 margin-left:0.2em;
 width:3em;
 }
+	/* deco cases */
+.titre_tab{
+color:red;
+}
+.nom{
+width:6em;
+}
+.description{
+width:11em;
+font-size:0.8em;
+}
+.prix{
+font-weight:bold;
+width:6em;
+padding:0 0;
+text-align:center;
+}
+.raye{
+font-weight:normal;
+text-decoration:line-through;
+color:gray;
+}
+	/* Affiche 2 tableaux à côté */
+.gauche{
+display:inline-block;
+}
+.droite{
+display:inline-block;
+vertical-align:top;
+}
