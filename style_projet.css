@@ -114,3 +114,33 @@ display:inline-block;
 display:inline-block;
 vertical-align:top;
 }
+/*--- Promotions ---*/
+#pub_gauche{
+display:inline-block;
+width:65%;
+}
+.promo{
+display:inline-block;
+float:left;
+max-width:96%;
+margin-left:1em;
+margin-bottom:1em;
+
+background-color:#e6c46b;
+border: 0.15em solid #680606;
+border-radius:0.3em;
+padding:0.5em;
+}
+.cadre_beige{
+display:inline-block;
+width:98%;
+margin:0.5% 1%;
+
+border-radius:0.3em;
+border: 0.2em solid #680606;
+background-color: #f9f8c8;
+text-align:center;
+}
+.titre_promo{
+font-weight:bold;
+}
