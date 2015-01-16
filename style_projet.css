@@ -16,7 +16,12 @@ font-family:arial;
 	position:fixed;
 	z-index: -1; /* --- passe tout derrière ---*/
 }
-
+.contenu_page{
+z-index: 0;	
+margin-left:1.5%;
+margin-right:1.5%;
+max-width:100em;
+}
 /*--- BANDEAU ---*/
 .bandeau{
 /* position:fixed; */
@@ -45,13 +50,48 @@ padding-right:10%;
 #logo{ /*LOUPE */
 height:3em;
 }
+#msg_accueil{
+margin:2%;
+z-index:1;
 
-/* --- TABLEAU DE PRODUITS --- */
-.contenu_page{
-z-index: 0;
-position:center;
-max-width:100em;
 }
+/*--- Menu Ancres des produits ---*/
+#menu{
+border: 0.4em double black;
+border-radius:0.3em;
+background-color:white;
+
+margin-left:1em;
+width:20em;
+position:center;
+z-index:1;
+}
+#menu li{
+color:black;
+font-family:Courier New, monospace;
+list-style:none;
+}
+#menu li:hover{
+list-style-image:url("images/puce.jpg")
+}
+#menu a{
+color:black;
+}	
+#menu a:visited{
+color:black;
+}
+/*--- TITRES PAGE PRODUITS ---*/
+.cat_prod{
+margin-left:2em;
+margin-bottom:0;
+text-align:center;
+
+text-shadow: 0 0 3px #000000;
+color:white;
+background-image:url("images/titre_cat.png");
+max-width:7em;
+}
+/* --- TABLEAU DE PRODUITS --- */
 table{
 display:inline-block;
 
@@ -143,4 +183,42 @@ text-align:center;
 }
 .titre_promo{
 font-weight:bold;
+}
+/*--- Jeu concours ---*/
+#titre_jeu{
+color:white;
+font-size:1.5em;
+font-weight:bold;	
+margin-left:30%;	
+}
+.jeu{
+margin-top:0.5em;
+max-width:100%;
+border-radius:0.3em;
+border: 0.2em solid #680606;
+background-color: #f9f8c8;
+text-align:center;
+}
+.jeu img{
+max-width:18em;
+}
+#concours {
+display:inline-block;
+float:right;
+width:30%;
+margin:0 1em 1em 1em;
+
+background-color:#e6c46b;
+border: 0.15em solid #680606;
+border-radius:0.3em;
+padding:0.5em;
+}
+/*--- Contacts ---*/
+.bleu_souligne{
+color:blue;
+font-weight:bold;
+text-decoration:underline;
+}
+#form_contact input{
+margin-bottom:1%;
 }
