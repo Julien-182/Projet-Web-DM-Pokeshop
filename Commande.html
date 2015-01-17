@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style_projet.css"/>
+		<link rel="icon" type="image/png" href="images/poke.png" /> 
+		<title>Votre commande</title>
+	</head>
+	<body>
+		<img id="fond" src="images/fond_pokemon.png" alt="fond_pokemon"/>
+		<nav id="haut_page" class="bandeau">
+			<a href="index.html"><img id="logo" src="images/poke_logo.png" alt="poke_logo"/></a>
+			<ul>
+				<li><a href="index.html">Accueil</a></li>
+				<li><a href="Produits.html">Produits</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+				<li id="rechercher"><label><input placeholder="Rechercher"></label><a href="#"><img id="loupe" src="images/ico-loupe.png" alt="ico_loupe"/></a>
+			</ul>
+		</nav>
+		
+		<div class="contenu_page">
+			<section id="table_prod" class="gauche">
+				<table>
+					<tr>
+						<th colspan="6">Votre Panier</th>
+					</tr>
+					<tr>
+						<th>Reference</th><th>Nom produit</th><th>Catégorie</th><th>Prix Unitaire</th><th>Quantité</th><th>Total</th>
+					</tr>
+					
+					<tr>
+						<td>00001</td><td>Poke Ball</td><td>Balls</td><td>200$</td><td>10</td><td>2000$</td>
+					</tr>
+					<tr>
+						<td>00003</td><td>Hyper Ball</td><td>Balls</td><td>1200$</td><td>10</td><td>12000$</td>
+					</tr>
+					<tr>
+						<td>00003</td><td>Sombre Ball</td><td>Balls</td><td>850$</td><td>6</td><td>5100$</td>
+					</tr>
+					<tr>
+						<td>10001</td><td>Potion</td><td>Potions</td><td>300$</td><td>5</td><td>1500$</td>
+					</tr>
+					<tr>					
+						<td>10005</td><td>Guérison</td><td>Potions</td><td>3000$</td><td>2</td><td>6000$</td>
+					</tr>
+					<tr>
+						<td>20001</td><td>Pierre Nuit</td><td>Pierres</td><td>3000$</td><td>1</td><td>3000$</td>
+					</tr>
+					<tr>
+						<th colspan="6">Articles offerts</th>
+					<tr>
+						<th>Reference</th><th>Nom produit</th><th>Catégorie</th><th>Prix Unitaire</th><th>Quantité</th>
+					</tr>
+					<tr>
+						<td>00015</td><td>Honor Ball</td><td>Balls</td><td>---</td><td>2</td>
+					</tr>
+					<tr>
+						<th colspan="5" id="total">TOTAL</th><th>29600$</th>
+					</tr>
+				</table>
+			</section>
+			
+			<section class="droite">
+				<section id="coordonnees" class="cadre_beige">
+					<h1>Vos coordonnées</h1>
+					<form action="Commande.html">
+						<section class="gauche">
+							<p>Coordonnées de livraison</p>
+							<p><label>Nom : <input placeholder="ex: Dupond"></label></p>
+							<p><label>Prenom : <input placeholder="ex: Martin"></label></p>
+							<p><label>Adresse : <input placeholder="ex: 69 Rue du Chenipan"></label></p>
+							<p><label>Ville : <input placeholder="ex: Safrania"></label></p>
+							<p><label>Code Postal : <input placeholder="ex: 75369"></label></p>
+						</section>
+						<section class="droite">					
+							<p>Coordonnées bancaires (sécurisé)</p>
+							<p><label>Numéro de la carte : <input></label></p>
+							<p><label>Nom et prénom du titulaire : <input></label></p>
+							<p><label>Date d'expiration : <select>
+															<option>Janvier</option>
+															<option>Février</option>
+															<option>Mars</option>
+															<option>Avril</option>
+															<option>Mai</option>
+															<option>Juin</option>
+															<option>Juillet</option>
+															<option>Août</option>
+															<option>Septembre</option>
+															<option>Octobre</option>
+															<option>Novembre</option>
+															<option>Décembre</option>
+														</select>
+														<select>
+															<option>2014</option>
+															<option>2015</option>
+															<option>2016</option>
+															<option>2017</option>
+															<option>2018</option>
+															<option>2019</option>
+														</select></label></p>					
+						</section>
+					</form>
+				</section>
+			</section>
+		</div>	
+	</body>
+</html>
