@@ -55,7 +55,7 @@ z-index:1;
 
 }
 /*--- Menu Ancres des produits ---*/
-#menu{
+.menu{
 border: 0.4em double black;
 border-radius:0.3em;
 background-color:white;
@@ -65,20 +65,21 @@ width:20em;
 position:center;
 z-index:1;
 }
-#menu li{
+.menu li{
 color:black;
 font-family:Courier New, monospace;
 list-style:none;
 }
-#menu li:hover{
+.menu li:hover{
 list-style-image:url("images/puce.jpg")
 }
-#menu a{
+.menu a{
 color:black;
 }	
-#menu a:visited{
+.menu a:visited{
 color:black;
 }
+
 /*--- TITRES PAGE PRODUITS ---*/
 .cat_prod{
 margin-left:2em;
