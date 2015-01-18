@@ -52,7 +52,9 @@ height:3em;
 #msg_accueil{
 margin:2%;
 z-index:1;
-
+color:white;
+font-size:1.5em;
+font-style:italic;
 }
 /*--- Menu Ancres des produits ---*/
 .menu{
