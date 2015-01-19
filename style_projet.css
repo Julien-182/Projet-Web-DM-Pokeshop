@@ -5,27 +5,22 @@
 		display:none;
 		}
 	#pub_gauche{
-		width:30em;
+		min-width:30em;
 	}
 	#concours{
-		width:17em;
+		min-width:17em;
 	}
 }
-@media only screen and (max-width: 630px) and (orientation:portrait)
+@media only screen and (max-width: 630px)
 {
 	.bandeau ul li{
 		padding-right:2em;
 		font-size:70%;
 	}
 	.bandeau ul li img{
-		width:2em;	
+		max-width:2em;	
 	}
-	#pub_gauche{
-		width:30em;
-	}
-	#concours{
-		width:17em;
-	}
+	
 }
 /*--- CORPS ET FOND DE PAGE ---*/
 html body{
@@ -68,8 +63,7 @@ color:white;
 text-decoration:none;
 }
 .bandeau ul a:hover{
-color:black;
-background-color:gray;
+color:blue;
 }
 .bandeau li{
 display:inline;
@@ -239,7 +233,6 @@ text-align:center;
 max-width:18em;
 }
 #concours {
-display:inline-block;
 width:30%;
 margin:0 1em 1em 1em;
 
