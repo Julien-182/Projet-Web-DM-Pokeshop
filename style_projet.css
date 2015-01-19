@@ -5,24 +5,27 @@
 		display:none;
 		}
 	#pub_gauche{
-		width:25em;
+		width:30em;
 	}
 	#concours{
 		width:17em;
 	}
 }
-@media all and (max-width: 630px) and (orientation:portrait)
+@media only screen and (max-width: 630px) and (orientation:portrait)
 {
 	.bandeau ul li{
-		padding-right:1em;
+		padding-right:2em;
+		font-size:70%;
+	}
+	.bandeau ul li img{
+		width:2em;	
 	}
 	#pub_gauche{
-		width:25em;
+		width:30em;
 	}
 	#concours{
 		width:17em;
 	}
-	
 }
 /*--- CORPS ET FOND DE PAGE ---*/
 html body{
@@ -71,6 +74,9 @@ background-color:gray;
 .bandeau li{
 display:inline;
 padding-right:10%;
+}
+.bandeau ul li img{
+position:absolute;
 }
 #logo{ /*LOUPE */
 height:3em;
