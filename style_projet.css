@@ -1,3 +1,29 @@
+/*--- MEDIA ADAPT ---*/
+@media only screen and (max-width: 835px)
+{
+	#msg_accueil{
+		display:none;
+		}
+	#pub_gauche{
+		width:25em;
+	}
+	#concours{
+		width:17em;
+	}
+}
+@media all and (max-width: 630px) and (orientation:portrait)
+{
+	.bandeau ul li{
+		padding-right:1em;
+	}
+	#pub_gauche{
+		width:25em;
+	}
+	#concours{
+		width:17em;
+	}
+	
+}
 /*--- CORPS ET FOND DE PAGE ---*/
 html body{
 margin:0em;
@@ -48,6 +74,9 @@ padding-right:10%;
 }
 #logo{ /*LOUPE */
 height:3em;
+}
+#loupe{
+max-height:1.15em;
 }
 #msg_accueil{
 margin:2%;
@@ -158,7 +187,6 @@ vertical-align:top;
 }
 /*--- Promotions ---*/
 #pub_gauche{
-display:inline-block;
 width:65%;
 }
 .promo{
@@ -206,7 +234,6 @@ max-width:18em;
 }
 #concours {
 display:inline-block;
-float:right;
 width:30%;
 margin:0 1em 1em 1em;
 
