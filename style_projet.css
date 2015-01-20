@@ -1,5 +1,5 @@
 /*--- MEDIA ADAPT ---*/
-@media only screen and (max-width: 835px)
+@media only screen and (max-width: 850px)
 {
 	#msg_accueil{
 		display:none;
@@ -81,12 +81,12 @@ max-height:1.15em;
 #msg_accueil{
 margin:2%;
 z-index:1;
-color:white;
+color:#BDBDBD;
 font-size:1.5em;
 font-style:italic;
 }
 /*--- Menu Ancres des produits ---*/
-.menu{
+#menu{
 border: 0.4em double black;
 border-radius:0.3em;
 background-color:white;
@@ -96,18 +96,18 @@ width:20em;
 position:center;
 z-index:1;
 }
-.menu li{
+#menu li{
 color:black;
 font-family:Courier New, monospace;
 list-style:none;
 }
-.menu li:hover{
+#menu li:hover{
 list-style-image:url("images/puce.jpg")
 }
-.menu a{
+#menu a{
 color:black;
 }	
-.menu a:visited{
+#menu a:visited{
 color:black;
 }
 
@@ -156,8 +156,9 @@ margin-left:0.2em;
 width:3em;
 }
 	/* deco cases */
-.titre_tab{
+.titre_tab th{
 color:red;
+font-weight:normal;
 }
 .nom{
 width:6em;
@@ -184,6 +185,32 @@ display:inline-block;
 .droite{
 display:inline-block;
 vertical-align:top;
+}
+/*--- Bouton commande ---*/
+#bouton_centre{
+margin-left:3em;
+margin-bottom:2em;
+font-size:1.5em;
+padding-left:10%;
+padding-right: 10%;
+max-width: 15%;	
+
+border: 0.4em double black;
+border-radius:0.3em;
+background-color:white;
+width:20em;
+position:center;
+z-index:1;
+}
+#bouton_centre a{
+text-decoration:none;
+color:black;
+}
+#bouton_centre a:hover{
+color:gray;
+}
+#bouton_centre a:visited{
+color:black;
 }
 /*--- Promotions ---*/
 #pub_gauche{
@@ -241,14 +268,15 @@ border: 0.15em solid #680606;
 border-radius:0.3em;
 padding:0.5em;
 }
+#concours button{
+width:90%;
+margin-left:5%;
+}
 /*--- Contacts ---*/
 .bleu_souligne{
 color:blue;
 font-weight:bold;
 text-decoration:underline;
-}
-#form_contact input{
-
 }
 /*--- Commande ---*/
 table tr th{
